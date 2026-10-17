@@ -3,4 +3,4 @@ This is a hyprland shell that was built for fedora and is made fully by claude a
 It enables copr lionheartp repo to install hyprland and quickshell.
 The installer installs multiple dependencies needed for the shell to work.
 To install run the .install file as an executable program or drag and drop the file into the terminal and press enter.
-Please not the this shell is mostly a test of ai.
+Please note the this shell is mostly a test of ai.
