@@ -9,48 +9,64 @@ Please note the this shell is mostly a test of ai.
 
 
 Dependencies:
-  core         "Hyprland (the compositor) and Quickshell (runs the shell)"
+
+  core         
+  "Hyprland (the compositor) and Quickshell (runs the shell)"
                hyprland, quickshell
                
-  qt           "Qt 6 parts the shell is built on"
+  qt           
+  "Qt 6 parts the shell is built on"
                qt6-qtdeclarative, qt6-qtsvg, qt6-qtwayland, qt6-qtmultimedia, qt6-qtimageformats
   
-  portals      "File pickers and screen sharing"
+  portals      
+  "File pickers and screen sharing"
                xdg-desktop-portal, xdg-desktop-portal-hyprland, xdg-desktop-portal-gtk, hyprland-guiutils
   
-  audio        "Volume, microphone, sounds"
+  audio        
+  "Volume, microphone, sounds"
                pipewire, wireplumber, pipewire-pulseaudio, pipewire-utils, pulseaudio-utils, sound-theme-freedesktop
 
-  network      "Wi-Fi and Bluetooth"
+  network      
+  "Wi-Fi and Bluetooth"
                NetworkManager
   
-  media        "Music widget and its beat, previews of video wallpapers"
+  media        
+  "Music widget and its beat, previews of video wallpapers"
                playerctl, cava, ffmpeg-free
   
-  display      "Brightness, night light, battery"
+  display      
+  "Brightness, night light, battery"
                brightnessctl, upower, hyprsunset
   
-  capture      "Screenshots and screen recording"
+  capture      
+  "Screenshots and screen recording"
                grim, slurp, wf-recorder, ImageMagick
   
-  clipboard    "Clipboard history, on-screen keyboard typing"
+  clipboard    
+  "Clipboard history, on-screen keyboard typing"
                wl-clipboard, cliphist, wtype
   
-  theming      "Making other apps follow the shell colours"
+  theming      
+  "Making other apps follow the shell colours"
                qt6ct, qt5ct, adw-gtk3-theme
   
-  fonts        "Interface font and emoji"
+  fonts        
+  "Interface font and emoji"
                rsms-inter-fonts, google-noto-color-emoji-fonts
   
-  tools        "Helper scripts (python, keyring, notifications, downloads)"
+  tools        
+  "Helper scripts (python, keyring, notifications, downloads)"
                python3, python3-gobject, gnome-keyring, libnotify, xdg-utils, curl, git, inotify-tools
   
-  apps         "Default terminal and file manager (any others work too)"
+  apps         
+  "Default terminal and file manager (any others work too)"
                kitty, nautilus
   
-  rgb          "RGB lighting on keyboards, mice, fans (optional)"
+  rgb         
+  "RGB lighting on keyboards, mice, fans (optional)"
                openrgb, openrgb-udev-rules
   
-  controllers  "Game controller support"
+  controllers  
+  "Game controller support"
                steam-devices
 
